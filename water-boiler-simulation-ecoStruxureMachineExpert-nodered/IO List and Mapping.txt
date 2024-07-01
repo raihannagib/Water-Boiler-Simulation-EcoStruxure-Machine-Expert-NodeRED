@@ -1,0 +1,41 @@
+IO LIST AND MAPPING
+
+
+A. INPUT
+   >> DIGITAL INPUT
+	- Start button					%M0
+	- Stop button					%M1
+	- Motor status					%M2	
+	- Level status | high alarm			%M3
+	- Limit switch					%M4
+
+   >> ANALOG INPUT
+      > 420ma
+	- PT01 Pressure transmitter			%MW0
+	- PT02 Pressure transmitter			%MW1	
+	- TT01 Temperature transmitter			%MW2
+	- TT02 Temperature trasmitter			%MW3
+	- FT01 Flow transmitter				%MW4
+	- FT02 Flow transmitter				%MW5
+	- WLT01 Water level transmitter			%MW6
+	- WLT02 Water level transmitter			%MW7
+	- LT01_PV Level transmitter present value	%MW8
+	- LT01_SP Level transmitter set point		%MW9
+
+       > 0 - 10
+
+
+
+B. OUTPUT
+   >> DIGITAL OUTPUT
+	- PP01 Pressure pump				%M5
+	- PP02 Pressure pump				%M6
+	- SV01 Solenoid valve				%M7
+	- SV02 Solenoid valve				%M8
+	- HT01 Heater 					%M9
+	- HT02 Heater					%M10
+	- WP01 Water pump				%M11
+	- WP02 Water pump				%M12
+
+   >> ANALOG OUTPUT
+	- None
